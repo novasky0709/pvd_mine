@@ -1,7 +1,7 @@
 import torch
 import os
 import argparse
-
+# haah am i bugggg
 from just_train_tea.network import NeRFNetwork
 
 from functools import partial
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--num_rays",
         type=int,
-        default=8192,
+        default=4096,
         help="num rays sampled per image for each training step",
     )
     parser.add_argument(
